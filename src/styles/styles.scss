@@ -1,0 +1,467 @@
+/*Go to top*/
+.gotop-container {
+  background-color: var(--dark);
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 20px;
+  top: 85vh;
+  z-index: 100;
+  transition: all ease 0.3s;
+}
+.gotop-container:hover {
+  background-color: #1c2629;
+}
+.arrow {
+  color: var(--lighter);
+  font-size: 1.5rem;
+}
+/*Go to top ends*/
+/*About section*/
+.about {
+  margin: 100px 0 60px 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--light);
+  gap: 2%;
+}
+.about-description {
+  padding: 70px 5% 50px 5%;
+  background: var(--primary);
+  border-radius: 80px 0px 0px 0px;
+  .about-heading {
+    margin-bottom: 40px;
+  }
+  p {
+    margin: 30px 0;
+  }
+}
+.about-image {
+  width: 75%;
+  img {
+    transform: rotateY(180deg);
+    width: 100%;
+  }
+}
+/*About section ends*/
+/*Recent Projects*/
+.projects-showcase {
+  margin: 150px 2%;
+  .projects-showcase-top {
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary);
+  }
+  .visit {
+    font-size: 1.5rem;
+    padding: 8px 35px;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .pro-showcase-img {
+    width: 100%;
+    border: 2px solid var(--primary);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 5px var(--primary);
+    img {
+      width: 100%;
+    }
+  }
+  .project-showcase-box {
+    margin: 50px 0%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    content: "" !important;
+  }
+}
+/*Recent Projects ends*/
+
+/*Projects and Experience*/
+.projects {
+  margin: 50px 5%;
+}
+.project-about {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  .project-about-desc {
+    flex: 7;
+  }
+  .heading {
+    color: var(--primary);
+  }
+  .project-about-text {
+    margin: 35px 0;
+  }
+}
+.project-about-img {
+  flex: 4;
+  img {
+    width: 100%;
+  }
+}
+.projects-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3%;
+  row-gap: 40px;
+  margin: 50px 0;
+}
+.project-box {
+  width: 22%;
+  padding: 25px 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px 0px #00000066;
+  transition: all 0.4s ease-in-out;
+  img {
+    width: 100%;
+    box-shadow: 0px 4px 20px 0px #00000030;
+    border-radius: 5px;
+  }
+  h2 {
+    color: var(--primary);
+    margin: 15px 0;
+  }
+  .project-buttons {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    a {
+      font-size: 0.8rem;
+      padding: 5px 15px;
+      text-decoration: none;
+    }
+  }
+}
+.project-box:hover {
+  transform: scale(1.08);
+}
+/*Projects and Experience ends*/
+/*Tools and Technologies*/
+.tech {
+  margin: 100px 5%;
+  .heading {
+    color: var(--primary) !important;
+    text-align: end;
+  }
+}
+.tech-top {
+  margin-left: 5%;
+}
+.tech-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4%;
+  row-gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.tech-box {
+  width: 30%;
+  box-shadow: 0px 4px 20px 0px #00000066;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 80px;
+  padding: 20px 30px;
+  background-color: var(--primary);
+  .techBox-img {
+    width: 20%;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--light);
+    width: 65px;
+    height: 65px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .techBox-name {
+    color: var(--light);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+/*Tools and Technologies ends*/
+
+/*Education*/
+.education {
+  margin: 50px 5%;
+  .education-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 30px;
+    .heading{
+      color: var(--primary);
+    }
+    .para{
+      margin: 30px 0;
+      color: var(--primary);
+    }
+  }
+  .education-topImg{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    img{
+      width: 100%;
+    }
+ }
+ .education-sec{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+  margin: 30px 5%;
+ }
+ .education-secImg{
+  width: 40%;
+  border-radius: 20px;
+  overflow: hidden;
+  img{
+    width: 100%;
+  }
+ }
+ .mt-5{
+  margin-top: 5vh;
+ }
+ .education-institute{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color:#0b5b69b9 ;
+ }
+ .education-class{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary);
+ }
+ .education-year{
+  font-size: 1.2rem;
+  color: var(--primary);
+  font-weight: 500;
+ }
+}
+.education-boxDe{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*Education ends*/
+/*Service*/
+.service {
+  margin: 50px 5%;
+}
+.service-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 50px;
+}
+.service-img {
+  width: 40%;
+  img {
+    width: 100%;
+  }
+}
+.services-desc {
+  width: 55%;
+  .heading {
+    font-size: 2rem !important;
+    margin-bottom: 30px;
+    color: var(--primary);
+  }
+  .para {
+    line-height: 23px;
+    color: var(--primary);
+  }
+  .buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.service-trust {
+    margin-bottom: 100px;
+  .heading {
+    font-size: 1.5rem !important;
+    color: var(--primary) !important;
+  }
+  .para{
+    margin-top: 10px;
+    color: var(--primary);
+  }
+  .hr{
+    margin-bottom: 30px;
+  }
+}
+.hr{
+    width: 100px;
+    height: 3px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--primary);
+    margin: 5px 0;
+}
+/*Service ends*/
+@media (max-width:850px){
+  .header-lists{
+    display: none;
+  }
+  .hero {
+    padding: 0px 2%;
+  }
+  .about {
+    margin: 15px 0;
+    flex-direction: column-reverse;
+  }
+  .about-description {
+    border-radius: 0;
+  }
+  .about-image {
+    width: 90%;
+}
+.projects-showcase {
+  margin: 45px 0;
+}
+.tech-box{
+  width: 100%;
+}
+.service-top{
+  flex-direction: column;
+}
+
+.services-desc {
+  width: 90%;
+  margin-bottom: 40px;
+}
+.service-img {
+  width: 70%;
+}
+.service-trust {
+  margin: 30px;
+}
+.project-about {
+  flex-direction: column;
+}
+.contact{
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: center;
+
+}
+.project-box {
+  width: 100%;}
+.tech-details{
+  gap: 4%;
+    row-gap: 16px;
+}
+  .profile-name{
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .hero-textBox {
+      background-color: #f6f4e891;
+      position: relative;
+      z-index: 100;
+      width: 93%;
+      margin: 50px 4%;
+      padding: 45px 0px 61px 5%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #000;
+      position: relative;
+      min-width: unset;
+  }
+  .profile-img{
+    display: none;
+  }
+  .hero-img {
+    display: none;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
+  .footer-logo {
+    width: 100%;
+}
+.footer-row {
+ margin-top: 2rem;
+  width: 95%;
+}
+.menu{
+  display: block;
+}
+.projects-showcase-top {
+  margin: 0 5% !important;
+  align-items: start !important;
+  gap: 1rem;
+  } 
+  .profile-heading{
+    font-size: 1.4rem;
+  }
+  .education-top {
+    flex-direction: column;
+  }
+  .education .education-sec{
+    margin: 35px 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .education .education-institute{
+    font-size: 1rem;
+  }
+  .education
+  .education-class {
+    font-size: 1.5rem;
+  }
+  .education .education-year{
+    font-size: 1rem;
+  }
+  .projects-showcase
+  .visit {
+      font-size: 1rem;
+      padding: 8px 25px;
+    }
+  .education
+.education-secImg {
+    width: 100%;
+    margin: 15px auto;
+}
+.education .isc{
+  flex-direction: column-reverse !important;
+}
+.services-desc
+.heading {
+    font-size: 1.5rem !important;
+}
+}
