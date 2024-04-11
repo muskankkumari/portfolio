@@ -3,7 +3,7 @@
         {   
             "title": "Portfolio",
             "description": "A portfolio website that showcases my projects and skills.",
-            "image":"/images/portfolio.png",
+            "image":"/portfolio/images/portfolio.png",
             "category":"Multipage website",
             "liveLink":"https://muskankkumari.github.io/portfolio/",
             "sourceCode":"https://github.com/muskankkumari/portfolio",
@@ -12,7 +12,7 @@
         {   
             "title": "Sitaram Dharamshala",
             "description": "A website to bring their bussiness online.",
-            "image":"/images/sitaram-dh.png",
+            "image":"/portfolio/images/sitaram-dh.png",
             "category":"Multipage website",
             "liveLink":"https://sitaramdharamshala.com/",
             "sourceCode":"https://github.com/techiesgateway/Sitaram-Dharmshala",
@@ -21,7 +21,7 @@
         {   
             "title": "Techies Gateway",
             "description": "Official website of Techies Gateway that tells about all of it's services and provide a way to connect them.",
-            "image":"/images/tg.png",
+            "image":"/portfolio/images/tg.png",
             "category":"Multipage website",
             "liveLink":"https://techiesgateway.com/",
             "sourceCode":"https://github.com/navinkrv/tg-official-webiste",
@@ -30,7 +30,7 @@
         {   
             "title": "Breaking News",
             "description": "A news website which shows us latest  news updates in real time.",
-            "image":"/images/news.png",
+            "image":"/portfolio/images/news.png",
             "category":"Multipage website",
             "liveLink":"https://muskankkumari.github.io/news-web/",
             "sourceCode":"https://github.com/muskankkumari/news-web",
@@ -39,7 +39,7 @@
         {   
             "title": "TextUtils",
             "description": "A website which is introduced for playing with words...",
-            "image":"/images/textutil.png",
+            "image":"/portfolio/images/textutil.png",
             "category":"Multipage website",
             "liveLink":"https://muskankkumari.github.io/textUtils/",
             "sourceCode":"https://github.com/muskankkumari/textUtils",
@@ -49,42 +49,42 @@
     "technology":[
         {
             "name": "React js",
-            "image":"/images/react.png"
+            "image":"/portfolio/images/react.png"
         },
         {
             "name": "Javascript",
-            "image":"/images/javascript.svg"
+            "image":"/portfolio/images/javascript.svg"
         },
         {
             "name":"Node Js",
-            "image":"/images/node.png"
+            "image":"/portfolio/images/node.png"
         },
         {
             "name":"HTML5",
-            "image":"/images/html.webp"
+            "image":"/portfolio/images/html.webp"
         },
         {
             "name":"CSS",
-            "image":"/images/css.webp"
+            "image":"/portfolio/images/css.webp"
         },
         {
             "name":"Git",
-            "image":"/images/git.png"
+            "image":"/portfolio/images/git.png"
         },
         {
             "name":"Bootstrap",
-            "image":"/images/bootstrap.png"
+            "image":"/portfolio/images/bootstrap.png"
         },{
             "name":"Github",
-            "image":"/images/github.png"
+            "image":"/portfolio/images/github.png"
         },
         {
             "name":"C++",
-            "image":"/images/c++.png"
+            "image":"/portfolio/images/c++.png"
         },
         {
             "name":"Sass",
-            "image":"/images/sass.png"
+            "image":"/portfolio/images/sass.png"
         }
     ]
 }
